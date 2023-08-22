@@ -3,3 +3,5 @@ analyze.bat
 
 node_modules/
 coverage/
+dist/
+types/

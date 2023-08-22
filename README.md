@@ -7,13 +7,13 @@ This package is heavily inspired by the dart Duration class. It is a wrapper aro
 ### Installation
 
 ```bash
-npm install @julczar/duration
+npm install js-duration
 ```
 
 or with yarn
 
 ```bash
-yarn add @julczar/duration
+yarn add js-duration
 ```
 
 ### Features
@@ -39,7 +39,7 @@ There are multiple packages out there that work with durations in different ways
 #### Calculate the duration between two dates
 
 ```ts
-import { Duration } from '@julczar/duration';
+import { Duration } from 'js-duration';
 
 const distance = Duration.between(
   new Date('2021-01-01'),
@@ -53,7 +53,7 @@ console.log(distance); // 1d
 #### Calculate the absolute duration of an complex number of days, hours, minutes, seconds, milliseconds and or microseconds
 
 ```ts
-import { Duration } from '@julczar/duration';
+import { Duration } from 'js-duration';
 
 const duration = Duration.of({
   days: 1,
@@ -70,7 +70,7 @@ console.log(duration.toString()); // 1d 2h 3m 4s 5ms
 #### Do calculations with durations created by this package
 
 ```ts
-import { Duration } from '@julczar/duration';
+import { Duration } from 'js-duration';
 
 const duration = Duration.of({
   days: 1,
