@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "A dart inspired approach to work with durations",
   "main": "dist/index.js",
+  "repository": "https://github.com/JulCzar/duration.git",
   "author": "JulCzar",
   "license": "MIT",
   "files": [
