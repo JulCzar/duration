@@ -1,8 +1,9 @@
 {
   "name": "js-duration",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A dart inspired approach to work with durations",
   "main": "dist/src/index.js",
+  "types": "types/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/JulCzar/duration"
