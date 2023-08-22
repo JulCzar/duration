@@ -1,0 +1,5 @@
+.scannerwork
+analyze.bat
+
+node_modules/
+coverage/

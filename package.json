@@ -1,0 +1,17 @@
+{
+  "name": "@julczar/duration",
+  "version": "0.0.1",
+  "description": "A dart inspired approach to work with durations",
+  "main": "dist/index.js",
+  "author": "JulCzar",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
