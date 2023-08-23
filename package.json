@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prepack": "tsc",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
